@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
 edition = "2018"
 license = "MIT"
+description = "Iterator comprehension in Rust"
 repository = "https://github.com/tanakh/comprehension-rs"
 keywords = ["comprehension", "iterator"]
 
