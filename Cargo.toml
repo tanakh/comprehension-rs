@@ -1,11 +1,20 @@
 [package]
 name = "comprehension"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
 edition = "2018"
-license = "MIT"
+
 description = "Iterator comprehension in Rust"
 repository = "https://github.com/tanakh/comprehension-rs"
+license = "MIT"
+readme = "README.md"
+
 keywords = ["comprehension", "iterator"]
 
+[lib]
+proc-macro = true
+
 [dependencies]
+proc-macro2 = "1.0.19"
+quote = "1.0.7"
+syn = { version = "1.0.36", features = ["full"] }
