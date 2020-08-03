@@ -58,6 +58,6 @@ let t = iter![x; x <- 1..=10].sum::<i32>()
 Also has `product!` macro:
 
 ```rust
-let t = product![x; <- 1..=10]; // => 3628800
+let t = product![x; x <- 1..=10]; // => 3628800
 ```
 
